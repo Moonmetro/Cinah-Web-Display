@@ -1,0 +1,22 @@
+<style>
+    @font-face {
+       font-family: "ABCSocialVariable";
+       src: url("ABCSocialVariable-Trial.woff2") format("woff2-variations"),
+       url("ABCSocialVariable-Trial.woff") format("woff-variations");
+    }
+    body {
+        font-family: "ABCSocialVariable", sans-serif;
+    }
+</style>
+
+<body>
+    <h1>This is a heading.</h1>
+</body>
+
+
+
+function randomizeText() {
+    randomWeight = Math.random() * (200 - 35) + 35;
+    randomWidth = Math.random() * (200 - 100) + 100;
+    myText.style.fontVariationSettings = "\"wght\" " + randomWeight + ", \"wdth\" " + randomWidth;
+  }

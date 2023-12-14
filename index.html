@@ -1,0 +1,35 @@
+<style>
+    @font-face {
+       font-family: "CinahNoncommercialNeo1209";
+       src: url("fonts/CinahNoncommercialNeo1209VF.woff2") format("woff2-variations"),
+       url("fonts/CinahNoncommercialNeo1209VF.woff") format("woff-variations");
+       font-weight:56 952;
+    }
+
+    body {
+        background-color: white;
+        margin: 0;
+    }
+    div {
+        position:relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: black;
+
+        font-family: "CinahNoncommercialNeo1209", sans-serif;
+        font-size: 80vh;
+        font-variation-settings:  "wght" 100, "ital" 0;
+
+        transition: font-variation-settings 1.5s ease;
+    }
+
+</style>
+
+<body>
+    <div id="text-zone"></div>
+
+</body>
+
+<script src="animation-change.js"></script>
